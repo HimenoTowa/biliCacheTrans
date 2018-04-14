@@ -1,4 +1,4 @@
- require "find" 
+ require "find"
 require "fileutils"
 
 
@@ -39,3 +39,4 @@ biliCacheTrans(".", fromUser) if fromUser == "copy" || fromUser == "cut"
 $stdin.gets.chomp
 
 #用ocra打包成.exe文件 ocra biliCacheTrans.rb --no-dep-run --icon c:/..... --add-all-cores --gem-full --output bct.exe
+#open in Atom 测试看能添加不
